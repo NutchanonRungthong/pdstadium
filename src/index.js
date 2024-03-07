@@ -1,15 +1,9 @@
 require("dotenv").config();
-const express = require("express");
-const Sequelize = require("sequelize");
-const app = express();
-var cors = require("cors");
-app.use(express.json());
-app.use(cors());
+const express = require('express')
+const Sequelize = require('sequelize')
+const app = express()
+
 //--------------------------------------CREATE DB--------------------------------------------
-
-
-
-
 
 //const db_url = "https://node56373-noderesza.proen.app.ruk-com.cloud/stadiums"
 //const sequelize = new Sequelize(db_url);
